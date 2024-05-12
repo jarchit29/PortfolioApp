@@ -4,11 +4,27 @@ import NavBar from '../Components/NavBar'
 
 const HomePage = () => {
     return (
-        <div className=' '>
-        
+        <div>
+
+            <div>
+                <img src='/suited.png' className='imgH object-center' />
+
+            </div>
+
+            <div className='text-center'>
+
+
+                HI I am archit jain
+
+                <div className='m-12'>
+                    <Button buttonLabel='Know About Me' />
+                </div>
+
+            </div>
+
+
         </div>
 
-        
 
     )
 }

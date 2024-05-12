@@ -199,3 +199,20 @@ button {
     }
   }
   
+  /* Image Height  */
+
+  .imgH{
+
+    height: 300px;
+    margin: auto;
+}
+
+/* Flex */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to the full viewport height */
+  }
+  
+  
