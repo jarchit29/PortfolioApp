@@ -57,7 +57,7 @@ const HomePage = () => {
 
                 <span className='heading-primary text-highlighter'>
 
-                    Hi, I'm
+                    Hi, I am
 
                 </span>
 
