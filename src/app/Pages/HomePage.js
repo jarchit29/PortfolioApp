@@ -70,7 +70,7 @@ const HomePage = () => {
             <div className='flex justify-center'>
 
 
-                <div className='w-3/4 p-primary text-tertiory'>
+                <div className='w-3/4 p-primary text-tertiory text-justify'>
 
                     <div>
                         <span className='mx-3'>
