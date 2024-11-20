@@ -8,7 +8,6 @@ import Footer from '../Components/Footer';
 import SocialHandels from '../Components/SocialHandels';
 
 
-
 const HomePage = () => {
 
 

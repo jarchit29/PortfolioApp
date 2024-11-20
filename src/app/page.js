@@ -3,6 +3,8 @@ import Button from "./Components/Button";
 import HomePage from "./Pages/HomePage";
 import NavBar from "./Components/NavBar";
 import { Analytics } from '@vercel/analytics/react';
+import Blogs from "./Pages/Blogs";
+
 
 
 export default function Home() {
@@ -11,8 +13,10 @@ export default function Home() {
 
     <NavBar/>
     
-    <HomePage/>
-    
+    {/* <HomePage/> */}
+
+     <Blogs/>       
+
     <Analytics />
     
   </div>  
