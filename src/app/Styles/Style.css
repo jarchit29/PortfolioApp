@@ -353,3 +353,153 @@ button:active .button-text {
   }
 
 }
+
+
+/* Delete after Nischay's assignment */
+
+.productContainer {
+
+  margin: 80px;
+
+}
+
+.sectionSeperator {
+
+  margin-bottom: 40px;
+
+}
+
+.textSectionHeading {
+
+  font: bolder;
+  font-size: x-large;
+  text-transform: capitalize;
+
+}
+
+.itemContainer {
+
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.itemCards {
+
+  margin: 10px;
+  border-radius: 2%;
+  /* border: 1px solid lightgrey; */
+  box-shadow: 2px 2px 2px 2px lightgray;
+  padding: 5px;
+  /* width: 300px; */
+  position: relative;
+
+  width: 17%;
+  box-sizing: border-box;
+}
+
+.imageCont {
+
+  height: 300px;
+  margin-bottom: 10px;
+
+}
+
+.card-img {
+
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.textCont {
+
+  padding: 10px;
+  
+  margin-bottom: 30px;
+  margin-top: 10px;
+
+}
+
+.gonnaBeOnTheBottom {
+
+  color: #4DA193;
+  font-size: medium;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 3px;
+}
+
+.margin-top {
+
+  margin-top: 25px;
+}
+
+.colorGreen {
+
+  color: #4DA193;
+  font-size: medium;
+  font-weight: bolder;
+
+}
+
+.number-control {
+
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+
+
+}
+
+.number-left::before,
+
+.number-right::after {
+  content: attr(data-content);
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 20px;
+  color: white;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.number-left::before {
+  content: "-";
+}
+
+.number-right::after {
+  content: "+";
+}
+
+.number-quantity {
+  padding: 0.25rem;
+  border: 0;
+  width: 50px;
+  -moz-appearance: textfield;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.number-left:hover::before,
+.number-right:hover::after {
+  background-color: #666666;
+}
+
+
+.navBar{
+
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+}

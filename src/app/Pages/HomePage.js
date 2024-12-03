@@ -84,7 +84,7 @@ const HomePage = () => {
 
                         <span className='mx-3'>
 
-                            of industry experience. I specialize in bridging the gap between business and technology as an Expert Tech and Functional Business Analyst, Full Stack Developer, and Hybrid Mobile App Innovator
+                            of industry experience. I specialize in bridging the gap between business and technology as an Expert Tech and Functional Business Analyst, Full Stack Developer, and Hybrid Mobile App Innovator.
                         </span>
 
                     </div>
@@ -100,8 +100,6 @@ const HomePage = () => {
                     <Button buttonLabel='Know About Me' />
                 </div>
             </div>
-
-            <Footer />
 
         </div>
 
