@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Footer from "./Components/Footer";
 import UserDashBoard from "./Nischay/UserDashBoard";
 import NavBarS from "./Nischay/NavBarS";
+import Blogs from "./Pages/Blogs";
 
 
 export default function Home() {
