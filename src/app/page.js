@@ -17,6 +17,8 @@ export default function Home() {
 
       <HomePage />
 
+      {/* <Blogs/>  */}
+
       <Analytics />
 
       <Footer />

@@ -9,7 +9,7 @@ const BlogCard = (props) => {
         <p class="para">
           {props.description}
         </p>
-        <button class="btn">{props.buttonText}</button>
+        {props.buttonText? <button class="btn">{props.buttonText}</button>: <></>}
       </div>
     </div>
 

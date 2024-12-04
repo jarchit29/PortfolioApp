@@ -6,6 +6,7 @@ import NavBar from '../Components/NavBar'
 import moment from 'moment/moment'
 import Footer from '../Components/Footer';
 import SocialHandels from '../Components/SocialHandels';
+import BlogCard from '../Components/BlogCard';
 
 
 const HomePage = () => {
@@ -33,6 +34,17 @@ const HomePage = () => {
 
     // Create the difference string
     const difference = `${years} years, ${months} months, ${days} days`;
+
+    const capsuleData = [{ title: "Technical Expertise ", description: "Proficient in developing web and mobile applications using the MERN stack and Ionic, ensuring scalable and user-friendly solutions." },
+    { title: "Business Analysis Skills", description: "Adept at gathering requirements, stakeholder communication, and bridging the gap between business needs and technical teams." },
+    { title: "Holistic Problem- Solving ", description: "Combines technical and business acumen to identify, analyze, and resolve complex challenges effectively." },
+    { title: "Adaptability to Emerging Trends ", description: "Currently pursuing an MBA in Data Analysis to enhance data-driven decision-making capabilities." },
+    { title: "Project Ownership", description: " Experienced in end-to-end project management, from requirement analysis to delivery and post-deployment support." },
+    { title: "Strong Communication", description: "Skilled in articulating technical concepts to non-technical stakeholders, fostering seamless collaboration." },
+    { title: "Focus on Impact ", description: "Committed to delivering innovative solutions that drive business growth and operational efficiency." },
+
+
+    ]
 
 
 
@@ -90,8 +102,42 @@ const HomePage = () => {
 
                 </div>
 
-
             </div>
+
+
+            <div>
+
+                <div className='mt-5 text-center'>
+                    <span className='heading-primary-semi text-highlighter colorGradient'>
+
+                        What Sets me 
+
+                    </span>
+
+                    <span className='heading-primary-semi text-highlighters mx-3'>
+                        Apart ? 
+                    </span>
+                </div>
+
+
+                <div className="mt-8 flexBox mb-8 justify-center">
+
+
+
+                    {capsuleData.map((data) => {
+
+                        return (
+                            <BlogCard
+                                title={data.title}
+                                description={data.description}
+                            />
+                        )
+
+                    })}
+
+                </div>
+            </div>
+
 
             <div className='text-center'>
 
