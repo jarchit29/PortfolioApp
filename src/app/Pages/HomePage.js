@@ -35,6 +35,7 @@ const HomePage = () => {
     // Create the difference string
     const difference = `${years} years, ${months} months, ${days} days`;
 
+    // Data of What sets me apart section
     const capsuleData = [{ title: "Technical Expertise ", description: "Proficient in developing web and mobile applications using the MERN stack and Ionic, ensuring scalable and user-friendly solutions." },
     { title: "Business Analysis Skills", description: "Adept at gathering requirements, stakeholder communication, and bridging the gap between business needs and technical teams." },
     { title: "Holistic Problem- Solving ", description: "Combines technical and business acumen to identify, analyze, and resolve complex challenges effectively." },

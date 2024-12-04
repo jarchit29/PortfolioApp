@@ -18,8 +18,8 @@ module.exports = {
         primary:'#3B8BeB',
         secondary:'#C4DBF6',
         tertiory:'#E7E3D4', 
-        highlighter:'#B23850',
-        darker:'#8590AA',
+        highlighter:'#B23850',     
+        darker:'#8590AA',   
         
 
       }
